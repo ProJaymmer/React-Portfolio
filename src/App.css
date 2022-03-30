@@ -1,3 +1,25 @@
-.carousel-item {
-	width: 50px;
+/* UNIVERSAL DESIGN */
+.text {
+	background: black;
+	opacity: 0.7;
 }
+#above {
+		height: 275px;
+	}
+/* END UNIVERSAL DESIGN */
+
+/* MOBILE DESIGN */
+@media screen and (max-width: 768px) {
+	/* #above {
+		height: 275px;
+	} */
+}
+/* END MOBILE DESIGN */
+
+/* DESKTOP DESIGN */
+@media screen and (min-width: 768px) {
+	/* #above {
+		height: 500px;
+	} */
+}
+/* END DESKTOP DESIGN */
