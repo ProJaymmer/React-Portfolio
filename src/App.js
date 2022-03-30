@@ -5,13 +5,13 @@ import AboutMe from './Components/AboutMe';
 
 function App() {
 	return (
-		<Container>
-			<Carousel style={{ margin: 5, border: 'solid' }}>
+		<Container fluid>
+			<Carousel className="carousel">
 				<Carousel.Item>
 					<img
 						id='pets'
 						className='d-block w-100'
-						src={require('./Malygos2.jpeg')}
+						src={require('./Malygos.jpeg')}
 						alt="Jay's husky, Malygos."
 					/>
 					<Carousel.Caption>
@@ -26,7 +26,7 @@ function App() {
 					<img
 						id='pets'
 						className='d-block w-100'
-						src={require('./Onyxia2.jpeg')}
+						src={require('./Onyxia.jpeg')}
 						alt="Jay's tortoiseshell cat, Onyxia."
 					/>
 					<Carousel.Caption>

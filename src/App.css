@@ -1,6 +1,8 @@
 /* UNIVERSAL DESIGN */
-#pets {
-	height: 275px;
+.carousel {
+	margin: 10px 0;
+	border: solid;
+	border-width: 3px;
 }
 .text {
 	background-color: black;
@@ -9,7 +11,10 @@
 /* END UNIVERSAL DESIGN */
 
 /* MOBILE DESIGN */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
+	#pets {
+		height: 275px;
+	}
 }
 /* END MOBILE DESIGN */
 
