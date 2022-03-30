@@ -6,38 +6,35 @@ import AboutMe from './Components/AboutMe';
 function App() {
 	return (
 		<Container>
-			<Carousel>
+			<Carousel style={{ margin: 5, border: 'solid' }}>
 				<Carousel.Item>
-					<div className='carousel-caption' id='above'>
-						<h3 className='text'>Jay's husky, Malygos!</h3>
-					</div>
 					<img
+						id='pets'
 						className='d-block w-100'
-						src={require('./Malygos.jpeg')}
+						src={require('./Malygos2.jpeg')}
 						alt="Jay's husky, Malygos."
 					/>
-					<div className='carousel-caption'>
+					<Carousel.Caption>
+						<h3 className='text'>Jay's husky, Malygos!</h3>
 						<p className='text'>
 							Malygos is the sweetest, friendliest boy and loves trips to the
 							dog park.
 						</p>
-					</div>
+					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
-					<div className='carousel-caption' id='above'>
-						<h3 className='text'>Jay's cat, Onyxia!</h3>
-					</div>
 					<img
+						id='pets'
 						className='d-block w-100'
-						src={require('./Onyxia.jpeg')}
+						src={require('./Onyxia2.jpeg')}
 						alt="Jay's tortoiseshell cat, Onyxia."
 					/>
-					<div className='carousel-caption'>
+					<Carousel.Caption>
+						<h3 className='text'>Jay's cat, Onyxia!</h3>
 						<p className='text'>
-							Onyxia can be a little Dr. Jekyll and Mr. Hyde. She's just as
-							likely to cuddle you as she is to pounce you!
+							Onyxia is as likely to cuddle you as she is to pounce you!
 						</p>
-					</div>
+					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>
 			<AboutMe />
