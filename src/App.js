@@ -32,7 +32,7 @@ function App() {
 					<Carousel.Caption>
 						<h3 className='text'>Jay's cat, Onyxia!</h3>
 						<p className='text'>
-							Onyxia is as likely to cuddle you as she is to pounce you!
+							Onyxia is as likely to cuddle you as she is to pounce you.
 						</p>
 					</Carousel.Caption>
 				</Carousel.Item>
