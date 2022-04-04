@@ -12,7 +12,7 @@
 
 /* MOBILE DESIGN */
 @media screen and (max-width: 414px) {
-	#pets {
+	#profileImages {
 		height: 275px;
 	}
 }
@@ -20,5 +20,12 @@
 
 /* DESKTOP DESIGN */
 @media screen and (min-width: 768px) {
+	.carousel {
+		max-width: 1115px;
+		max-height: 820px;
+	}
+	#profileImages {
+		max-height: 820px;
+	}
 }
 /* END DESKTOP DESIGN */

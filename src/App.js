@@ -6,10 +6,10 @@ import AboutMe from './Components/AboutMe';
 function App() {
 	return (
 		<Container fluid>
-			<Carousel className="carousel">
+			<Carousel className='carousel'>
 				<Carousel.Item>
 					<img
-						id='pets'
+						id='profileImages'
 						className='d-block w-100'
 						src={require('./Malygos.jpeg')}
 						alt="Jay's husky, Malygos."
@@ -24,7 +24,7 @@ function App() {
 				</Carousel.Item>
 				<Carousel.Item>
 					<img
-						id='pets'
+						id='profileImages'
 						className='d-block w-100'
 						src={require('./Onyxia.jpeg')}
 						alt="Jay's tortoiseshell cat, Onyxia."
@@ -33,6 +33,19 @@ function App() {
 						<h3 className='text'>Jay's cat, Onyxia!</h3>
 						<p className='text'>
 							Onyxia is as likely to cuddle you as she is to pounce you.
+						</p>
+					</Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img
+						id='profileImages'
+						className='d-block w-100'
+						src={require('./Jay.jpeg')}
+						alt='Jay Nguyen'
+					/>
+					<Carousel.Caption>
+						<p className='text'>
+							And me, Jay Nguyen. Your future web developer!
 						</p>
 					</Carousel.Caption>
 				</Carousel.Item>
